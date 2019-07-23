@@ -1,4 +1,4 @@
-## Arduino instructions :rocket:
+## :rocket: Arduino instructions
 
 These libraries are needed for the code to compile:
 * [Link 1](http://www.google.com)
