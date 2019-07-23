@@ -1,0 +1,3 @@
+Here are some instructions...
+
+If you're not a developer, but want to implement this in your non-private org, then please talk with your developer or partner before adding it to your org.
