@@ -1,6 +1,7 @@
-More instructions...
+## Arduino instructions
 
 These libraries are needed for the code to compile:
-* <a href="http://www.google.com">Link1</a>
+* [Link 1](http://www.google.com)
+* [Link 2](http://www.google.com)
 
-Here's a guide to get you started with Arduino: <a href="https://www.youtube.com/watch?v=BtLwoNJ6klE">LINK</a> <i>by GreatScott!</i>
+Here's a guide to get you started with Arduino: [YouTube video](https://www.youtube.com/watch?v=BtLwoNJ6klE) by *GreatScott!*
