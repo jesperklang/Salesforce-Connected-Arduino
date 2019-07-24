@@ -128,7 +128,7 @@ void sendReading(float temp, float humid) {
 
 void auth() {
   WiFiClientSecure client;
-  String requestBody = "grant_type=password&client_id=" + consumerKey + "&client_secret=" + consumerSecret + "&username=" + userUsername + "&password=" + userPassword + ;
+  String requestBody = "grant_type=password&client_id=" + consumerKey + "&client_secret=" + consumerSecret + "&username=" + userUsername + "&password=" + userPassword + securityToken;
   Serial.printf("Connecting to %s... ", authHost);
   client.setFingerprint(fingerprint);
   
