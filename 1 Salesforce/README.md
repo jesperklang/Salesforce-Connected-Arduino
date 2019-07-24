@@ -1,7 +1,7 @@
 ## :cloud: Salesforce instructions
 
 Install [this package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4H000000CfLE), which contains all the code, objects, fields etc.
-> Note that this is an unmanaged package and has not gone through Salesforce's security control. You shouldn't intal packages from people you don't know.
+> Note that this is an unmanaged package and has not gone through Salesforce's security review. You shouldn't install packages from people you don't trust.
 
 You will need to activate the Scheduled Apex yourself, and to do so, you simply 
 1. Search for **Apex Classes** in Quick Find
