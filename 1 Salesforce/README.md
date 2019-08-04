@@ -26,7 +26,7 @@ You will need to activate the Scheduled Apex yourself, and to do so, you simply:
 You need to enter a username and password of an active User in the code that goes into your IoT device, that it uses to log in to your Org. If you have a spare license in your Org, it's **strongly recommended** that you create a seperate Integration User that has the least access that is needed for it's tasks. Security is as important in your private Org as any other.
 
 ### 5. You're ready for the next step!
-You have configured everything that is needed! [Now go back and continue the instructions of in the '2 Arduino' folder](2%20Arduino)
+You have configured everything that is needed! [Now go back and continue the instructions of in the '2 Arduino' folder](.2%20Arduino)
 
 ## Object descriptions
 <img src="https://www.jesperklang.com/visuals/1_Microcontroller_to_Salesforce/Schema_Builder.png"/>
