@@ -1,6 +1,6 @@
 # :cloud: Salesforce instructions
 
-## Installation
+## :package: Installation 
 
 ### 1. Intall the package
 Install [this package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4H000000CfLE), which contains all the code, objects, fields etc.
@@ -25,10 +25,10 @@ You will need to activate the Scheduled Apex yourself, and to do so, you simply:
 ### 4. Create an Integration User (Optional but recommended)
 You need to enter a username and password of an active User in the code that goes into your IoT device, that it uses to log in to your Org. If you have a spare license in your Org, it's **strongly recommended** that you create a seperate Integration User that has the least access that is needed for it's tasks. Security is as important in your private Org as any other.
 
-### 5. You're ready for the next step!
+### 5. You're ready for the next step! :white_check_mark:
 You have configured everything that is needed! [Now go back and continue the instructions of in the '2 Arduino' folder](https://github.com/jesperklang/Salesforce-Connected-Arduino/tree/master/2%20Arduino)
 
-## Object descriptions
+## :triangular_ruler: Object descriptions
 <img src="https://www.jesperklang.com/visuals/1_Microcontroller_to_Salesforce/Schema_Builder.png"/>
 
 ### IoT Device
