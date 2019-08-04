@@ -22,7 +22,13 @@ You will need to activate the Scheduled Apex yourself, and to do so, you simply:
 3. Give it a **name**, select the **readingsNightlyProcess** class in the **Apex Class** field, and select all the days of the week. Set the preferred time to 12:00 AM, and before saving, be sure to set an End date that is far ahead in the future.
 4. Hit **Save**, and you're done!
 
-## Schema
+### 4. Create an Integration User (Optional but recommended)
+You need to enter a username and password of an active User in the code that goes into your IoT device, that it uses to log in to your Org. If you have a spare license in your Org, it's **strongly recommended** that you create a seperate Integration User that has the least access that is needed for it's tasks. Security is as important in your private Org as any other.
+
+### 5. You're ready for the next step!
+You have configured everything that is needed! [Now go back and continue the instructions of in the '2 Arduino' folder](2 Arduino)
+
+## Object descriptions
 <img src="https://www.jesperklang.com/visuals/1_Microcontroller_to_Salesforce/Schema_Builder.png"/>
 
 ### IoT Device
