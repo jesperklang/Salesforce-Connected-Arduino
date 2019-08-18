@@ -2,7 +2,7 @@
 
 ## :package: Installation 
 
-### 1. Intall the package
+### 1. Install the package
 Install [this package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4H000000CfLE), which contains all the code, objects, fields etc.
 > Note that this is an unmanaged package and has not gone through Salesforce's security review. You shouldn't install packages from people you don't trust.
 
