@@ -8,12 +8,11 @@ global with sharing class SensorWebService {
             Humidity__c = humid);
         upsert device Device_ID__c;
 
-        IoT_Reading__c reading = new IoT_Reading__c(
+        insert new IoT_Reading__c(
             IoT_Device__c = device.id,
             Temperature__c = temp,
             Humidity__c = humid,
             Reading_error__c = (temp == 0 || humid == 0));
-        insert reading;
         
         return 'Reading successful';
     }
