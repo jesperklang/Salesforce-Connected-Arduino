@@ -11,7 +11,7 @@ You need to create a Connected App that the IoT device will use when logging in.
 1. Search for **App Manager** in Setup (Lightning)
 2. Click the **New Connected App** button
 3. Populate/check the fields seen on the **picture below**
-4. Write down the **Consumer Key** and **Consumer Secret**. You will need them for the code in your Iot device
+4. Write down the **Consumer Key** and **Consumer Secret**. You will need them for the code in your IoT device
 > Note that it will take 5-10 min until the Connected App can be used
 <img src="https://www.jesperklang.com/visuals/1_Microcontroller_to_Salesforce/Connected_App.png"/>
 
