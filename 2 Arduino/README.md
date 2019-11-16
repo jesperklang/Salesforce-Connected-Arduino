@@ -2,7 +2,7 @@
 
 ## :unlock: Preperation
 
-### 1. First we need to Download Arduino and set up the Boards [*more info*](https://github.com/esp8266/Arduino)
+### 1. Download Arduino and Board setup [*more info*](https://github.com/esp8266/Arduino)
 - Install the current upstream Arduino IDE at the 1.8.7 level or later. The current version is on the [Arduino website](https://www.arduino.cc/en/main/software).
 - Start Arduino and open the Preferences window.
 - Enter ```https://arduino.esp8266.com/stable/package_esp8266com_index.json``` into the *Additional Board Manager URLs* field. You can add multiple URLs, separating them with commas.
