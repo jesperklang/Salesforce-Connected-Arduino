@@ -8,19 +8,19 @@ Install [this package](https://login.salesforce.com/packaging/installPackage.ape
 
 ### 2. Create a Connected App
 You need to create a Connected App that the IoT device will use when logging in.
-1. Search for **App Manager** in Setup (Lightning)
-2. Click the **New Connected App** button
-3. Populate/check the fields seen on the **picture below**
-4. Write down the **Consumer Key** and **Consumer Secret**. You will need them for the code in your IoT device
+- Search for **App Manager** in Setup (Lightning)
+- Click the **New Connected App** button
+- Populate/check the fields seen on the **picture below**
+- Write down the **Consumer Key** and **Consumer Secret**. You will need them for the code in your IoT device
 > Note that it will take 5-10 min until the Connected App can be used
 <img src="https://www.jesperklang.com/visuals/1_Microcontroller_to_Salesforce/Connected_App.png"/>
 
 ### 3. Create a Scheduled Job
 You will need to activate the Scheduled Apex yourself, and to do so, you simply:
-1. Search for **Apex Classes** in Quick Find
-2. Click the **Schedule Apex** button
-3. Give it a **name**, select the **readingsNightlyProcess** class in the **Apex Class** field, and select all the days of the week. Set the preferred time to 12:00 AM, and before saving, be sure to set an End date that is far ahead in the future.
-4. Hit **Save**, and you're done!
+- Search for **Apex Classes** in Quick Find
+- Click the **Schedule Apex** button
+- Give it a **name**, select the **readingsNightlyProcess** class in the **Apex Class** field, and select all the days of the week. Set the preferred time to 12:00 AM, and before saving, be sure to set an End date that is far ahead in the future.
+- Hit **Save**, and you're done!
 
 ### 4. Create an Integration User (Optional but recommended)
 You need to enter a username and password of an active User in the code that goes into your IoT device, that it uses to log in to your Org. If you have a spare license in your Org, it's **strongly recommended** that you create a seperate Integration User that has the least access that is needed for it's tasks. Security is as important in your private Org as any other.

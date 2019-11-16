@@ -1,7 +1,15 @@
-## :rocket: Arduino instructions
+# :rocket: Arduino instructions
 
-These libraries are needed for the code to compile:
-* [Link 1](http://www.google.com)
-* [Link 2](http://www.google.com)
+## :unlock: Preperation
 
-Here's a guide to get you started with Arduino: [YouTube video](https://www.youtube.com/watch?v=BtLwoNJ6klE) by *GreatScott!* :movie_camera:
+### 1. First we need to Download Arduino and set up the Boards
+- Install the current upstream Arduino IDE at the 1.8.7 level or later. The current version is on the [Arduino website](https://www.arduino.cc/en/main/software).
+- Start Arduino and open the Preferences window.
+- Enter ```https://arduino.esp8266.com/stable/package_esp8266com_index.json``` into the *Additional Board Manager URLs* field. You can add multiple URLs, separating them with commas.
+- Open Boards Manager from Tools > Board menu and install *esp8266* platform (and don't forget to select your ESP8266 board from Tools > Board menu after installation).
+
+### 2. Install the ArduinoJson library [*more info*](https://arduinojson.org/)
+- Search for ```ArduinoJson``` in Library Manager from Tools > Manage Libraries
+- Install **ArduinoJson** by **Benoit Blanchon**
+
+## :computer: The code
